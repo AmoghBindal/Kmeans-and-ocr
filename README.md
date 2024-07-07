@@ -1,2 +1,6 @@
 # Kmeans-and-ocr
 I have implemented a Kmeans classifier from scratch and used it on latitude longitude data on my state. Additionally I also made an OCR model from scratch and did the sentiment analysis of that sentence using Naive Bayes method.
+
+Task 1 - I started with longitude and Latitude data, I cleaned it and took the entries of my state. I plotted the post offices of my state on a scatter plot and hexbin plot as well. This gave me an idea of where there is a high density of post offices and which districts have good postal connectivity. I then tried to implement the kmeans clustering algorithm by taking inspiration from NeuralNines implementation. I then plotted it but the scatterplot is not showing different colors for different labels in the plot, however i am able to color the different means and I am able to color the points themselves on other datasets.
+
+Task 2 - I made an OCR model from scratch using CNN's. I did the relevant preprocessing in the data along with designing the architecture of the neural network. I then extracted the text from target images and used the Naive Bayes method to do sentiment analysis on the extracted sentences. It is predicting the wrong sentiment in the first image but that is because some characters were misread so it is not able to recognize some words but other than that task 2 was working perfectly.
